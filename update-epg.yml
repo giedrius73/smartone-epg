@@ -1,0 +1,40 @@
+name: Update EPG
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl gzip
+
+      - name: Download EPG from epg.one
+        run: |
+          curl -L "http://epg.one/epg2.xml.gz" -o epg2.xml.gz
+
+      - name: Verify file type
+        run: |
+          file epg2.xml.gz
+          ls -lh epg2.xml.gz
+
+      - name: Unzip EPG
+        run: |
+          gunzip -f epg2.xml.gz
+
+      - name: Commit updated EPG
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add epg2.xml || true
+          git commit -m "Auto-update EPG from epg.one" || true
+          git push
