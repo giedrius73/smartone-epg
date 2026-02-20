@@ -27,14 +27,10 @@ jobs:
           file epg2.xml.gz
           ls -lh epg2.xml.gz
 
-      - name: Unzip EPG
-        run: |
-          gunzip -f epg2.xml.gz
-
-      - name: Commit updated EPG
+      - name: Commit updated EPG (.gz only)
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add epg2.xml || true
-          git commit -m "Auto-update EPG from epg.one" || true
+          git add epg2.xml.gz || true
+          git commit -m "Auto-update EPG (.gz) from epg.one" || true
           git push
