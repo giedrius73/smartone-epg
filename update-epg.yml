@@ -1,0 +1,47 @@
+name: Update EPG
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl gzip
+
+      - name: Download FULL EPG
+        run: |
+          curl -L "https://raw.githubusercontent.com/giedrius73/EPG-Full/main/epg2.xml.gz" -o epg2.xml.gz
+
+      - name: Download LITE EPG
+        run: |
+          curl -L "https://raw.githubusercontent.com/giedrius73/EPG/main/epg-lite.xml.gz" -o epg-lite.xml.gz
+
+      - name: Check downloaded files
+        run: |
+          file epg2.xml.gz
+          file epg-lite.xml.gz
+          head -n 20 epg2.xml.gz || true
+          head -n 20 epg-lite.xml.gz || true
+
+      - name: Unzip EPG files
+        run: |
+          gunzip -f epg2.xml.gz
+          gunzip -f epg-lite.xml.gz
+
+      - name: Commit updated EPG files
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add epg2.xml epg-lite.xml || true
+          git commit -m "Auto-update EPG" || true
+          git push
