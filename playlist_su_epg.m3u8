@@ -1,67 +1,67 @@
-#EXTM3U url-tvg="epg_su_filtru.xml.gz"
-#EXTINF:-1 tvg-id="3279",LRT TV LT
+#EXTM3U url-tvg="http://epg.one"
+#EXTINF:-1 tvg-id="6356",LRT TV LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6356/index.m3u8
-#EXTINF:-1 tvg-id="3279",LRT TV HD LT
+#EXTINF:-1 tvg-id="6360",LRT TV HD LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6360/index.m3u8
-#EXTINF:-1 tvg-id="3284",LRT Plius LT
+#EXTINF:-1 tvg-id="6361",LRT Plius LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6361/index.m3u8
-#EXTINF:-1 tvg-id="3284",LRT Plius HD LT
+#EXTINF:-1 tvg-id="6362",LRT Plius HD LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6362/index.m3u8
-#EXTINF:-1 tvg-id="3280",TV1 LT
+#EXTINF:-1 tvg-id="6357",TV1 LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6357/index.m3u8
-#EXTINF:-1 tvg-id="3280",TV1 HD LT
+#EXTINF:-1 tvg-id="12004",TV1 HD LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/12004/index.m3u8
-#EXTINF:-1 tvg-id="3273",TV3 LT
+#EXTINF:-1 tvg-id="6349",TV3 LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6349/index.m3u8
-#EXTINF:-1 tvg-id="3273",TV3 HD LT
+#EXTINF:-1 tvg-id="18007",TV3 HD LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/18007/index.m3u8
-#EXTINF:-1 tvg-id="4808",TV3 Plus HD LT
+#EXTINF:-1 tvg-id="12001",TV3 Plus HD LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/12001/index.m3u8
-#EXTINF:-1 tvg-id="6292",Go3 Films HD LT
+#EXTINF:-1 tvg-id="12014",Go3 Films HD LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/12014/index.m3u8
-#EXTINF:-1 tvg-id="3274",TV6 LT
+#EXTINF:-1 tvg-id="6350",TV6 LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6350/index.m3u8
-#EXTINF:-1 tvg-id="3277",LTV7 LV
+#EXTINF:-1 tvg-id="18009",LTV7 LV
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/18009/index.m3u8
-#EXTINF:-1 tvg-id="3370",LNK LT
+#EXTINF:-1 tvg-id="6358",LNK LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6358/index.m3u8
-#EXTINF:-1 tvg-id="3370",LNK HD LT
+#EXTINF:-1 tvg-id="6405",LNK HD LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6405/index.m3u8
-#EXTINF:-1 tvg-id="3268",BTV LT
+#EXTINF:-1 tvg-id="6344",BTV LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6344/index.m3u8
-#EXTINF:-1 tvg-id="3268",BTV HD LT
+#EXTINF:-1 tvg-id="6398",BTV HD LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6398/index.m3u8
-#EXTINF:-1 tvg-id="3278",TV8 LT
+#EXTINF:-1 tvg-id="6355",TV8 LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6355/index.m3u8
-#EXTINF:-1 tvg-id="3278",TV8 HD LT
+#EXTINF:-1 tvg-id="12005",TV8 HD LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/12005/index.m3u8
-#EXTINF:-1 tvg-id="3365",Delfi TV HD LT
+#EXTINF:-1 tvg-id="6400",Delfi TV HD LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6400/index.m3u8
-#EXTINF:-1 tvg-id="3364",Balticum LT
+#EXTINF:-1 tvg-id="6399",Balticum LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6399/index.m3u8
-#EXTINF:-1 tvg-id="4809",Balticum Auksinis LT
+#EXTINF:-1 tvg-id="12002",Balticum Auksinis LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/12002/index.m3u8
-#EXTINF:-1 tvg-id="4807",Balticum Platinum HD LT
+#EXTINF:-1 tvg-id="12000",Balticum Platinum HD LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/12000/index.m3u8
-#EXTINF:-1 tvg-id="9152",Duo 3 HD LT
+#EXTINF:-1 tvg-id="20026",Duo 3 HD LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/20026/index.m3u8
-#EXTINF:-1 tvg-id="3287",2TV LT
+#EXTINF:-1 tvg-id="6364",2TV LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6364/index.m3u8
-#EXTINF:-1 tvg-id="3282",Lietuvos Rytas LT
+#EXTINF:-1 tvg-id="6359",Lietuvos Rytas LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6359/index.m3u8
-#EXTINF:-1 tvg-id="3282",Lietuvos Rytas HD LT
+#EXTINF:-1 tvg-id="12003",Lietuvos Rytas HD LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/12003/index.m3u8
-#EXTINF:-1 tvg-id="3286",INFO TV LT
+#EXTINF:-1 tvg-id="6363",INFO TV LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6363/index.m3u8
-#EXTINF:-1 tvg-id="88029",Etaplius TV LT
+#EXTINF:-1 tvg-id="6365",Etaplius TV LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6365/index.m3u8
-#EXTINF:-1 tvg-id="2932",Sport 1 LT
+#EXTINF:-1 tvg-id="2548",Sport 1 LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/2548/index.m3u8
-#EXTINF:-1 tvg-id="2932",Sport 1 HD LT
+#EXTINF:-1 tvg-id="6367",Sport 1 HD LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6367/index.m3u8
-#EXTINF:-1 tvg-id="3380",Go3 Sport 1 HD LT
+#EXTINF:-1 tvg-id="6417",Go3 Sport 1 HD LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6417/index.m3u8
-#EXTINF:-1 tvg-id="3381",Go3 Sport 2 HD LT
+#EXTINF:-1 tvg-id="6418",Go3 Sport 2 HD LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6418/index.m3u8
 #EXTINF:-1 tvg-id="8883",Viasat Kino World orig
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/31447/index.m3u8
