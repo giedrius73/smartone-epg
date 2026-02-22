@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://epg.one"
+#EXTM3U url-tvg="http://epg.one/epg2.xml.gz"
 #EXTINF:-1 tvg-id="6356",LRT TV LT
 http://yf62myx1.ukminlt.org/iptv/7DK3FH6EE8KKNV7QSWWE7X9X/6356/index.m3u8
 #EXTINF:-1 tvg-id="6360",LRT TV HD LT
